@@ -1,0 +1,84 @@
+<svg viewBox="0 0 900 820" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans Thai','Sarabun','Noto Sans Thai',sans-serif">
+  <style>
+    .title{font-size:26px;font-weight:700;fill:#1e293b}
+    .sub{font-size:15px;fill:#475569}
+    .lbl{font-size:14px;font-weight:600;fill:#0f172a}
+    .small{font-size:12px;fill:#334155}
+    .note{font-size:13px;fill:#334155}
+    .noteh{font-size:14px;font-weight:700;fill:#0f172a}
+    .tag{font-size:12px;font-weight:600;fill:#fff}
+  </style>
+
+  <!-- Title -->
+  <text x="40" y="40" class="title">วันที่ 25 — Workshop (จัดโต๊ะกลม)</text>
+  <text x="40" y="64" class="sub">8 โต๊ะกลม + โต๊ะทีมอาจารย์ (ข้างหลัง) + Flip Chart 8 อัน  |  เวทีอยู่ด้านหน้า</text>
+
+  <!-- Room -->
+  <rect x="40" y="80" width="820" height="600" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Stage / AV zone (evening) at FRONT (top) -->
+  <rect x="150" y="96" width="600" height="60" rx="8" fill="#fff7ed" stroke="#fb923c" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="450" y="122" text-anchor="middle" class="lbl" fill="#c2410c">พื้นที่เวที / แสงสีเสียง (ด้านหน้า)</text>
+  <text x="450" y="142" text-anchor="middle" class="small" fill="#c2410c">ทีมเข้าติดตั้งได้ช่วงเย็น หลังจบกิจกรรม</text>
+
+  <!-- 8 round tables: 2 cols x 4 rows -->
+  <!-- helper reused manually -->
+  <!-- Row 1 -->
+  <g>
+    <circle cx="300" cy="238" r="44" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+    <text x="300" y="243" text-anchor="middle" class="lbl">โต๊ะ 1</text>
+    <!-- flip chart -->
+    <g transform="translate(196,214)"><rect width="40" height="30" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/><line x1="8" y1="30" x2="4" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="32" y1="30" x2="36" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="20" y1="30" x2="20" y2="46" stroke="#ca8a04" stroke-width="2"/></g>
+  </g>
+  <g>
+    <circle cx="590" cy="238" r="44" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+    <text x="590" y="243" text-anchor="middle" class="lbl">โต๊ะ 2</text>
+    <g transform="translate(486,214)"><rect width="40" height="30" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/><line x1="8" y1="30" x2="4" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="32" y1="30" x2="36" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="20" y1="30" x2="20" y2="46" stroke="#ca8a04" stroke-width="2"/></g>
+  </g>
+  <!-- Row 2 -->
+  <g>
+    <circle cx="300" cy="356" r="44" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+    <text x="300" y="361" text-anchor="middle" class="lbl">โต๊ะ 3</text>
+    <g transform="translate(196,332)"><rect width="40" height="30" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/><line x1="8" y1="30" x2="4" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="32" y1="30" x2="36" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="20" y1="30" x2="20" y2="46" stroke="#ca8a04" stroke-width="2"/></g>
+  </g>
+  <g>
+    <circle cx="590" cy="356" r="44" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+    <text x="590" y="361" text-anchor="middle" class="lbl">โต๊ะ 4</text>
+    <g transform="translate(486,332)"><rect width="40" height="30" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/><line x1="8" y1="30" x2="4" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="32" y1="30" x2="36" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="20" y1="30" x2="20" y2="46" stroke="#ca8a04" stroke-width="2"/></g>
+  </g>
+  <!-- Row 3 -->
+  <g>
+    <circle cx="300" cy="474" r="44" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+    <text x="300" y="479" text-anchor="middle" class="lbl">โต๊ะ 5</text>
+    <g transform="translate(196,450)"><rect width="40" height="30" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/><line x1="8" y1="30" x2="4" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="32" y1="30" x2="36" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="20" y1="30" x2="20" y2="46" stroke="#ca8a04" stroke-width="2"/></g>
+  </g>
+  <g>
+    <circle cx="590" cy="474" r="44" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+    <text x="590" y="479" text-anchor="middle" class="lbl">โต๊ะ 6</text>
+    <g transform="translate(486,450)"><rect width="40" height="30" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/><line x1="8" y1="30" x2="4" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="32" y1="30" x2="36" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="20" y1="30" x2="20" y2="46" stroke="#ca8a04" stroke-width="2"/></g>
+  </g>
+  <!-- Row 4 -->
+  <g>
+    <circle cx="300" cy="592" r="44" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+    <text x="300" y="597" text-anchor="middle" class="lbl">โต๊ะ 7</text>
+    <g transform="translate(196,568)"><rect width="40" height="30" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/><line x1="8" y1="30" x2="4" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="32" y1="30" x2="36" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="20" y1="30" x2="20" y2="46" stroke="#ca8a04" stroke-width="2"/></g>
+  </g>
+  <g>
+    <circle cx="590" cy="592" r="44" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+    <text x="590" y="597" text-anchor="middle" class="lbl">โต๊ะ 8</text>
+    <g transform="translate(486,568)"><rect width="40" height="30" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/><line x1="8" y1="30" x2="4" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="32" y1="30" x2="36" y2="48" stroke="#ca8a04" stroke-width="2"/><line x1="20" y1="30" x2="20" y2="46" stroke="#ca8a04" stroke-width="2"/></g>
+  </g>
+
+  <!-- Teacher team table at BACK (bottom) -->
+  <rect x="270" y="638" width="360" height="30" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="450" y="658" text-anchor="middle" class="lbl" fill="#15803d">โต๊ะทีมอาจารย์ (ข้างหลัง)</text>
+
+  <!-- Notes panel -->
+  <rect x="40" y="700" width="820" height="105" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="58" y="724" class="noteh">สรุปสิ่งที่ขอกับโรงแรม — วันที่ 25</text>
+  <rect x="58" y="736" width="16" height="16" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/><text x="82" y="749" class="note">โต๊ะกลม 8 โต๊ะ (จัดเป็นกลุ่ม workshop)</text>
+  <rect x="58" y="760" width="16" height="16" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/><text x="82" y="773" class="note">Flip Chart 8 อัน (โต๊ะละ 1 อัน)</text>
+  <rect x="58" y="784" width="16" height="16" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="82" y="797" class="note">โต๊ะทีมอาจารย์ 1 ตัว จัดไว้ด้านหลังห้อง</text>
+  <rect x="460" y="736" width="16" height="16" rx="3" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/><text x="484" y="749" class="note">ช่วงเย็น: ทีมแสงสีเสียง + เวที เข้าติดตั้งได้หลังจบกิจกรรม</text>
+  <text x="484" y="773" class="note">🍽  ห้องจัดเลี้ยง: แยกไปใช้อีกห้องหนึ่ง</text>
+</svg>
