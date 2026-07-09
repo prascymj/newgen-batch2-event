@@ -1,0 +1,72 @@
+<svg viewBox="0 0 900 820" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans Thai','Sarabun','Noto Sans Thai',sans-serif">
+  <style>
+    .title{font-size:26px;font-weight:700;fill:#1e293b}
+    .sub{font-size:15px;fill:#475569}
+    .lbl{font-size:14px;font-weight:600;fill:#0f172a}
+    .small{font-size:12px;fill:#334155}
+    .note{font-size:13px;fill:#334155}
+    .noteh{font-size:14px;font-weight:700;fill:#0f172a}
+    .wht{font-size:15px;font-weight:700;fill:#fff}
+  </style>
+
+  <text x="40" y="40" class="title">แบบ B — Cabaret (โต๊ะกลมหันเข้าเวที)</text>
+  <text x="40" y="64" class="sub">ผู้เรียน 40 คน · โต๊ะกลม 8 (≈5/โต๊ะ) เว้นด้านหน้าหันเข้าเวที · กรรมการ 8 · โพเดียม 2 · โต๊ะ อจ ด้านหลัง</text>
+
+  <rect x="40" y="80" width="820" height="600" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Stage -->
+  <rect x="130" y="96" width="640" height="64" rx="8" fill="#1e293b"/>
+  <text x="230" y="135" class="wht">เวที</text>
+  <rect x="360" y="102" width="180" height="52" rx="4" fill="#0ea5e9" stroke="#0369a1" stroke-width="2"/>
+  <text x="450" y="123" text-anchor="middle" class="small" fill="#fff">จอในห้อง</text>
+  <text x="450" y="140" text-anchor="middle" class="small" fill="#fff">แนวนอน 16:9</text>
+
+  <!-- Podiums -->
+  <g transform="translate(150,166)"><rect width="46" height="36" rx="4" fill="#f59e0b" stroke="#b45309" stroke-width="2"/><text x="23" y="23" text-anchor="middle" class="small" fill="#fff">โพเดียม 1</text></g>
+  <g transform="translate(704,166)"><rect width="46" height="36" rx="4" fill="#f59e0b" stroke="#b45309" stroke-width="2"/><text x="23" y="23" text-anchor="middle" class="small" fill="#fff">โพเดียม 2</text></g>
+
+  <!-- Committee table -->
+  <rect x="250" y="222" width="400" height="42" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="450" y="249" text-anchor="middle" class="lbl" fill="#b91c1c">โต๊ะกรรมการ 8 คน (หน้าเวที)</text>
+
+  <!-- Audience: 8 round tables (2 col x 4 row), open front to stage -->
+  <g>
+    <circle cx="300" cy="312" r="33" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2.2"/><text x="300" y="317" text-anchor="middle" class="small">โต๊ะ 1</text>
+    <circle cx="600" cy="312" r="33" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2.2"/><text x="600" y="317" text-anchor="middle" class="small">โต๊ะ 2</text>
+    <circle cx="300" cy="392" r="33" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2.2"/><text x="300" y="397" text-anchor="middle" class="small">โต๊ะ 3</text>
+    <circle cx="600" cy="392" r="33" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2.2"/><text x="600" y="397" text-anchor="middle" class="small">โต๊ะ 4</text>
+    <circle cx="300" cy="472" r="33" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2.2"/><text x="300" y="477" text-anchor="middle" class="small">โต๊ะ 5</text>
+    <circle cx="600" cy="472" r="33" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2.2"/><text x="600" y="477" text-anchor="middle" class="small">โต๊ะ 6</text>
+    <circle cx="300" cy="552" r="33" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2.2"/><text x="300" y="557" text-anchor="middle" class="small">โต๊ะ 7</text>
+    <circle cx="600" cy="552" r="33" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2.2"/><text x="600" y="557" text-anchor="middle" class="small">โต๊ะ 8</text>
+  </g>
+
+  <!-- direction -->
+  <line x1="450" y1="590" x2="450" y2="290" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#ar)"/>
+  <defs><marker id="ar" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#64748b"/></marker></defs>
+  <text x="462" y="582" class="small" fill="#64748b">เว้นที่นั่งด้านหน้า หันเข้าเวที</text>
+
+  <!-- Teacher tables at BACK -->
+  <rect x="110" y="628" width="180" height="26" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="200" y="646" text-anchor="middle" class="small" fill="#15803d">โต๊ะทีมอาจารย์ 1</text>
+  <rect x="300" y="628" width="180" height="26" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="390" y="646" text-anchor="middle" class="small" fill="#15803d">โต๊ะทีมอาจารย์ 2</text>
+
+  <!-- Portrait screen at entrance -->
+  <rect x="700" y="586" width="52" height="76" rx="4" fill="#22c55e" stroke="#15803d" stroke-width="2"/>
+  <text x="726" y="614" text-anchor="middle" class="small" fill="#fff">จอ</text>
+  <text x="726" y="630" text-anchor="middle" class="small" fill="#fff">แนวตั้ง</text>
+  <text x="726" y="646" text-anchor="middle" class="small" fill="#fff">9:16</text>
+  <text x="592" y="628" class="small" fill="#15803d">จอหน้าห้อง/ทางเข้า</text>
+  <text x="592" y="646" class="small" fill="#15803d">Artwork &amp; ป้ายงาน</text>
+
+  <!-- Notes -->
+  <rect x="40" y="700" width="820" height="105" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="58" y="724" class="noteh">แบบ B — Cabaret · สรุปวันที่ 26</text>
+  <rect x="58" y="736" width="16" height="16" rx="3" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="82" y="749" class="note">ผู้เรียน 40 คน — โต๊ะกลม 8 (≈5/โต๊ะ) เว้นที่นั่งด้านหน้าให้หันเข้าเวที</text>
+  <rect x="58" y="760" width="16" height="16" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/><text x="82" y="773" class="note">โต๊ะกรรมการ 8 คน หน้าเวที · โพเดียม 2 อัน</text>
+  <rect x="58" y="784" width="16" height="16" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="82" y="797" class="note">โต๊ะทีมอาจารย์ 2 ตัว ด้านหลัง (วิทยากร+อจ 10 คน)</text>
+  <rect x="500" y="736" width="16" height="16" rx="3" fill="#0ea5e9" stroke="#0369a1" stroke-width="2"/><text x="524" y="749" class="note">จอในห้อง = แนวนอน 16:9</text>
+  <rect x="500" y="760" width="16" height="16" rx="3" fill="#22c55e" stroke="#15803d" stroke-width="2"/><text x="524" y="773" class="note">จอหน้าห้อง = แนวตั้ง 9:16</text>
+  <text x="500" y="797" class="note">เหมาะ: ทำงานกลุ่ม+ดูนำเสนอสลับกัน</text>
+</svg>

@@ -9,62 +9,63 @@
     .wht{font-size:15px;font-weight:700;fill:#fff}
   </style>
 
-  <!-- Title -->
-  <text x="40" y="40" class="title">วันที่ 26 — Pitching / นำเสนอ (หันเข้าเวที)</text>
-  <text x="40" y="64" class="sub">โต๊ะผู้เข้าร่วมหันเข้าเวที · โต๊ะกรรมการ 8 คน ด้านหน้า · โพเดียม 2 อัน · จอ 2 แบบ</text>
+  <text x="40" y="40" class="title">แบบ A — Classroom (โต๊ะแถวหันเข้าเวที)</text>
+  <text x="40" y="64" class="sub">ผู้เรียน 40 คน · โต๊ะยาว 8 (≈5/โต๊ะ) หันเข้าเวที · กรรมการ 8 หน้าเวที · โพเดียม 2 · โต๊ะ อจ ด้านหลัง</text>
 
-  <!-- Room -->
   <rect x="40" y="80" width="820" height="600" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
 
-  <!-- STAGE (front / top) -->
-  <rect x="130" y="98" width="640" height="72" rx="8" fill="#1e293b"/>
-  <text x="450" y="142" text-anchor="middle" class="wht">เวที (STAGE)</text>
+  <!-- Stage -->
+  <rect x="130" y="96" width="640" height="64" rx="8" fill="#1e293b"/>
+  <text x="230" y="135" class="wht">เวที</text>
+  <rect x="360" y="102" width="180" height="52" rx="4" fill="#0ea5e9" stroke="#0369a1" stroke-width="2"/>
+  <text x="450" y="123" text-anchor="middle" class="small" fill="#fff">จอในห้อง</text>
+  <text x="450" y="140" text-anchor="middle" class="small" fill="#fff">แนวนอน 16:9</text>
 
-  <!-- Landscape screen inside room (on stage) -->
-  <rect x="360" y="106" width="180" height="56" rx="4" fill="#0ea5e9" stroke="#0369a1" stroke-width="2"/>
-  <text x="450" y="130" text-anchor="middle" class="small" fill="#fff">จอในห้อง</text>
-  <text x="450" y="148" text-anchor="middle" class="small" fill="#fff">แนวนอน (16:9)</text>
+  <!-- Podiums -->
+  <g transform="translate(150,166)"><rect width="46" height="36" rx="4" fill="#f59e0b" stroke="#b45309" stroke-width="2"/><text x="23" y="23" text-anchor="middle" class="small" fill="#fff">โพเดียม 1</text></g>
+  <g transform="translate(704,166)"><rect width="46" height="36" rx="4" fill="#f59e0b" stroke="#b45309" stroke-width="2"/><text x="23" y="23" text-anchor="middle" class="small" fill="#fff">โพเดียม 2</text></g>
 
-  <!-- 2 Podiums at stage front corners -->
-  <g transform="translate(150,178)"><rect width="46" height="40" rx="4" fill="#f59e0b" stroke="#b45309" stroke-width="2"/><text x="23" y="25" text-anchor="middle" class="small" fill="#fff">โพเดียม 1</text></g>
-  <g transform="translate(704,178)"><rect width="46" height="40" rx="4" fill="#f59e0b" stroke="#b45309" stroke-width="2"/><text x="23" y="25" text-anchor="middle" class="small" fill="#fff">โพเดียม 2</text></g>
+  <!-- Committee table -->
+  <rect x="250" y="222" width="400" height="42" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="450" y="249" text-anchor="middle" class="lbl" fill="#b91c1c">โต๊ะกรรมการ 8 คน (หน้าเวที)</text>
 
-  <!-- Committee / judges table (8) in front of stage -->
-  <rect x="250" y="238" width="400" height="46" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5"/>
-  <text x="450" y="266" text-anchor="middle" class="lbl" fill="#b91c1c">โต๊ะกรรมการ 8 คน</text>
-
-  <!-- Audience tables facing stage: 2 cols x 3 rows -->
+  <!-- Audience: 8 long tables (2 col x 4 row) facing stage -->
   <g>
-    <rect x="215" y="330" width="200" height="44" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="315" y="357" text-anchor="middle" class="small">โต๊ะผู้เข้าร่วม</text>
-    <rect x="485" y="330" width="200" height="44" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="585" y="357" text-anchor="middle" class="small">โต๊ะผู้เข้าร่วม</text>
-    <rect x="215" y="404" width="200" height="44" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="315" y="431" text-anchor="middle" class="small">โต๊ะผู้เข้าร่วม</text>
-    <rect x="485" y="404" width="200" height="44" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="585" y="431" text-anchor="middle" class="small">โต๊ะผู้เข้าร่วม</text>
-    <rect x="215" y="478" width="200" height="44" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="315" y="505" text-anchor="middle" class="small">โต๊ะผู้เข้าร่วม</text>
-    <rect x="485" y="478" width="200" height="44" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="585" y="505" text-anchor="middle" class="small">โต๊ะผู้เข้าร่วม</text>
+    <rect x="200" y="300" width="200" height="34" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="300" y="322" text-anchor="middle" class="small">โต๊ะผู้เรียน · 5 ที่</text>
+    <rect x="500" y="300" width="200" height="34" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="600" y="322" text-anchor="middle" class="small">โต๊ะผู้เรียน · 5 ที่</text>
+    <rect x="200" y="366" width="200" height="34" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="300" y="388" text-anchor="middle" class="small">โต๊ะผู้เรียน · 5 ที่</text>
+    <rect x="500" y="366" width="200" height="34" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="600" y="388" text-anchor="middle" class="small">โต๊ะผู้เรียน · 5 ที่</text>
+    <rect x="200" y="432" width="200" height="34" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="300" y="454" text-anchor="middle" class="small">โต๊ะผู้เรียน · 5 ที่</text>
+    <rect x="500" y="432" width="200" height="34" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="600" y="454" text-anchor="middle" class="small">โต๊ะผู้เรียน · 5 ที่</text>
+    <rect x="200" y="498" width="200" height="34" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="300" y="520" text-anchor="middle" class="small">โต๊ะผู้เรียน · 5 ที่</text>
+    <rect x="500" y="498" width="200" height="34" rx="6" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="600" y="520" text-anchor="middle" class="small">โต๊ะผู้เรียน · 5 ที่</text>
   </g>
 
-  <!-- direction arrow -->
-  <line x1="450" y1="560" x2="450" y2="300" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#ar)"/>
+  <!-- direction -->
+  <line x1="450" y1="560" x2="450" y2="290" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#ar)"/>
   <defs><marker id="ar" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#64748b"/></marker></defs>
-  <text x="462" y="545" class="small" fill="#64748b">ทุกโต๊ะหันหน้าเข้าเวที</text>
+  <text x="462" y="552" class="small" fill="#64748b">ทุกโต๊ะหันเข้าเวที</text>
 
-  <!-- Portrait screen at room entrance (front of room / foyer) -->
-  <rect x="600" y="590" width="56" height="76" rx="4" fill="#22c55e" stroke="#15803d" stroke-width="2"/>
-  <text x="628" y="618" text-anchor="middle" class="small" fill="#fff">จอ</text>
-  <text x="628" y="634" text-anchor="middle" class="small" fill="#fff">แนวตั้ง</text>
-  <text x="628" y="650" text-anchor="middle" class="small" fill="#fff">9:16</text>
-  <text x="588" y="682" class="small" fill="#15803d">จอหน้าห้อง/ทางเข้า — Artwork &amp; ป้ายงาน</text>
+  <!-- Teacher tables at BACK -->
+  <rect x="110" y="596" width="180" height="28" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="200" y="615" text-anchor="middle" class="small" fill="#15803d">โต๊ะทีมอาจารย์ 1</text>
+  <rect x="300" y="596" width="180" height="28" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="390" y="615" text-anchor="middle" class="small" fill="#15803d">โต๊ะทีมอาจารย์ 2</text>
 
-  <!-- entrance mark -->
-  <rect x="200" y="672" width="120" height="12" rx="4" fill="#fff" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 4"/>
-  <text x="260" y="668" text-anchor="middle" class="small" fill="#64748b">ทางเข้า</text>
+  <!-- Portrait screen at entrance -->
+  <rect x="606" y="586" width="52" height="76" rx="4" fill="#22c55e" stroke="#15803d" stroke-width="2"/>
+  <text x="632" y="614" text-anchor="middle" class="small" fill="#fff">จอ</text>
+  <text x="632" y="630" text-anchor="middle" class="small" fill="#fff">แนวตั้ง</text>
+  <text x="632" y="646" text-anchor="middle" class="small" fill="#fff">9:16</text>
+  <text x="700" y="620" class="small" fill="#15803d">จอหน้าห้อง/ทางเข้า</text>
+  <text x="700" y="638" class="small" fill="#15803d">Artwork &amp; ป้ายงาน</text>
 
-  <!-- Notes panel -->
+  <!-- Notes -->
   <rect x="40" y="700" width="820" height="105" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
-  <text x="58" y="724" class="noteh">สรุปสิ่งที่ขอกับโรงแรม — วันที่ 26</text>
-  <rect x="58" y="736" width="16" height="16" rx="3" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="82" y="749" class="note">จัดโต๊ะผู้เข้าร่วมหันหน้าเข้าเวทีทั้งหมด</text>
-  <rect x="58" y="760" width="16" height="16" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/><text x="82" y="773" class="note">โต๊ะกรรมการ 8 คน จัดไว้ด้านหน้า (หน้าเวที)</text>
-  <rect x="58" y="784" width="16" height="16" rx="3" fill="#f59e0b" stroke="#b45309" stroke-width="2"/><text x="82" y="797" class="note">โพเดียมสำหรับพิธีเปิด 2 อัน</text>
-  <rect x="470" y="736" width="16" height="16" rx="3" fill="#0ea5e9" stroke="#0369a1" stroke-width="2"/><text x="494" y="749" class="note">Artwork จอในห้อง = แนวนอน (16:9)</text>
-  <rect x="470" y="760" width="16" height="16" rx="3" fill="#22c55e" stroke="#15803d" stroke-width="2"/><text x="494" y="773" class="note">Artwork จอหน้าห้อง/ทางเข้า = แนวตั้ง (9:16)</text>
+  <text x="58" y="724" class="noteh">แบบ A — Classroom · สรุปวันที่ 26</text>
+  <rect x="58" y="736" width="16" height="16" rx="3" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/><text x="82" y="749" class="note">ผู้เรียน 40 คน — โต๊ะยาว 8 ตัว (≈5/โต๊ะ) หันเข้าเวที</text>
+  <rect x="58" y="760" width="16" height="16" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/><text x="82" y="773" class="note">โต๊ะกรรมการ 8 คน หน้าเวที · โพเดียม 2 อัน</text>
+  <rect x="58" y="784" width="16" height="16" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="82" y="797" class="note">โต๊ะทีมอาจารย์ 2 ตัว ด้านหลัง (วิทยากร+อจ 10 คน)</text>
+  <rect x="500" y="736" width="16" height="16" rx="3" fill="#0ea5e9" stroke="#0369a1" stroke-width="2"/><text x="524" y="749" class="note">จอในห้อง = แนวนอน 16:9</text>
+  <rect x="500" y="760" width="16" height="16" rx="3" fill="#22c55e" stroke="#15803d" stroke-width="2"/><text x="524" y="773" class="note">จอหน้าห้อง = แนวตั้ง 9:16</text>
 </svg>
